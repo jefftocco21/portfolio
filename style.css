@@ -6,6 +6,12 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: rgb(173, 38, 169);
+  background: linear-gradient(
+    90deg,
+    rgba(173, 38, 169, 0.6516807406556373) 25%,
+    rgba(182, 38, 91, 0.5760504885547969) 50%
+  );
 }
 
 html {
