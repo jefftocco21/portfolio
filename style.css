@@ -356,3 +356,8 @@ article {
 article .icon {
   cursor: default;
 }
+
+/* Projects */
+#projects {
+  position: relative;
+}
