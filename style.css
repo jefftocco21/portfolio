@@ -418,7 +418,7 @@ article .icon {
 }
 
 .contact-info-container {
-  display: felx;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
@@ -446,4 +446,8 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.me {
+  border-radius: 50%;
 }
