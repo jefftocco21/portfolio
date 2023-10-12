@@ -339,7 +339,7 @@ btn-container {
 
 .article-container {
   display: flex;
-  text-align: inital;
+  text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
