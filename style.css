@@ -7,8 +7,33 @@
   padding: 0;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+    body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(173, 38, 169);
+    background: linear-gradient(
+        90deg,
+        rgba(173, 38, 169, 0.6516807406556373) 25%,
+        rgba(182, 38, 91, 0.5760504885547969) 50%
+    );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1.5s fadeInUp;
 }
 
 html {

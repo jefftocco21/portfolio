@@ -1,10 +1,14 @@
-@media screen and (max-width: 12140000px) {
-  #hero {
+@media screen and (max-width: 1400px) {
+  #profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
   .about-containers {
     flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
   }
 }
 
@@ -12,14 +16,14 @@
   #desktop-nav {
     display: none;
   }
-  #mobile-nav {
+  #hamburger-nav {
     display: flex;
   }
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
-  #hero,
+  #profile,
   .section-container {
     display: block;
   }
@@ -48,7 +52,7 @@
   footer {
     height: 40vh;
   }
-  #hero {
+  #profile {
     height: 83vh;
     margin-bottom: 0;
   }
@@ -64,44 +68,35 @@
   .btn-container {
     flex-wrap: wrap;
   }
-
   .contact-info-container {
     margin: 0;
   }
-
-  .contact-info-upper-container p,
+  .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
-
-  experience-sub-title {
+  .experience-sub-title {
     font-size: 1.25rem;
   }
-
   .logo {
     font-size: 1.5rem;
   }
-
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
-
   .section__pic-container {
     width: auto;
-    height: 46cw;
+    height: 46vw;
     justify-content: center;
   }
-
-  .section__text_p2 {
+  .section__text__p2 {
     font-size: 1.25rem;
   }
-
   .title {
     font-size: 2rem;
   }
-
   .text-container {
     text-align: justify;
   }
