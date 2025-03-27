@@ -7,12 +7,13 @@
   padding: 0;
 }
 
-#examplemodal {
-  height: 800em;
+.modal{
+  height:1000em;
 }
 
 iframe {
-  width: 300px;
+  width: 100em;
+  height: 40em;
   resize: both;
 }
 
