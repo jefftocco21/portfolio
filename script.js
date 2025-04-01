@@ -18,7 +18,6 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   let modalTitle = exampleModal.querySelector('.modal-title')
   let modalBodyInput = exampleModal.querySelector('.modal-body input')
 
-  modalTitle.textContent = 'New message to ' + recipient
   modalBodyInput.value = recipient
 })
 
@@ -32,9 +31,7 @@ exexampleModal.addEventListener('show.bs.modal', function (event) {
   // and then do the updating in a callback.
   //
   // Update the modal's content.
-  let modalTitle = exexampleModal.querySelector('.modal-title')
   let modalBodyInput = exexampleModal.querySelector('.modal-body input')
 
-  modalTitle.textContent = 'New message to ' + recipient
   modalBodyInput.value = recipient
 })
