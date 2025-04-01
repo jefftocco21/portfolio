@@ -141,14 +141,44 @@
             <h2 class="experience-sub-title">Development</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#1exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe class="" src="https://docs.google.com/document/d/e/2PACX-1vRf-CjoMXoTozTBRpZiBibQ_up9k40s5UsWK8DOIdj7f1VYU-ULNjjWrq20s80bQ2Ukz8QQ2k9SHKgg/pub?embedded=true"></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="1exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfRaAJD9nHne_J5P3SfSfMkdz3iNtXeXrvkVgZwB2d3uq8R8p1khRmI3ZT3ddrc8ekuj-ISKEy3EI/pubhtml?widget=true&amp;headers=false"></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </article>
               <article>
