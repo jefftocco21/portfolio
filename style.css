@@ -214,6 +214,13 @@ section {
   margin: auto 0;
 }
 
+.section__pic-container-caro{
+  display:flex;
+  height:300px;
+  width:400px;
+  margin: auto 0;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
